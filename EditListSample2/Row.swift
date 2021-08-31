@@ -9,13 +9,15 @@ import SwiftUI
 
 struct Row: View {
     
-    @Binding var fruits: Fruits
+    @Binding var fruit: Fruit
+    var onToggle: () -> Void
     
     var body: some View {
         HStack {
-            Text(fruits.name)
-                .foregroundColor(self.fruits.visible ? .black : .gray)
+            Text(fruit.name)
+                .foregroundColor(self.fruit.visible ? .black : .gray)
             Spacer()
+            Toggle("", isOn: $fruit.visible)
         }
         
     }
@@ -23,6 +25,6 @@ struct Row: View {
 
 struct Row_Previews: PreviewProvider {
     static var previews: some View {
-        Row(fruits: .constant(.init(name: "Apple", visible: true)))
+        Row(fruit: .constant(.init(name: "Apple", visible: true)), onToggle: { })
     }
 }

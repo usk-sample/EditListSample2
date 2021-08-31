@@ -12,7 +12,7 @@
 		A8D18F2B26DDB3FE004B4E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D18F2A26DDB3FE004B4E61 /* Assets.xcassets */; };
 		A8D18F2E26DDB3FE004B4E61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D18F2D26DDB3FE004B4E61 /* Preview Assets.xcassets */; };
 		A8D18F3626DDB417004B4E61 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D18F3526DDB417004B4E61 /* ViewModel.swift */; };
-		A8D18F3826DDB430004B4E61 /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D18F3726DDB430004B4E61 /* Fruits.swift */; };
+		A8D18F3826DDB430004B4E61 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D18F3726DDB430004B4E61 /* Fruit.swift */; };
 		A8D18F3A26DDB456004B4E61 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D18F3926DDB456004B4E61 /* Row.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		A8D18F2D26DDB3FE004B4E61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8D18F2F26DDB3FE004B4E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8D18F3526DDB417004B4E61 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		A8D18F3726DDB430004B4E61 /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		A8D18F3726DDB430004B4E61 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		A8D18F3926DDB456004B4E61 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 				A8D18F2826DDB3FD004B4E61 /* ContentView.swift */,
 				A8D18F3926DDB456004B4E61 /* Row.swift */,
 				A8D18F3526DDB417004B4E61 /* ViewModel.swift */,
-				A8D18F3726DDB430004B4E61 /* Fruits.swift */,
+				A8D18F3726DDB430004B4E61 /* Fruit.swift */,
 				A8D18F2A26DDB3FE004B4E61 /* Assets.xcassets */,
 				A8D18F2F26DDB3FE004B4E61 /* Info.plist */,
 				A8D18F2C26DDB3FE004B4E61 /* Preview Content */,
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8D18F3826DDB430004B4E61 /* Fruits.swift in Sources */,
+				A8D18F3826DDB430004B4E61 /* Fruit.swift in Sources */,
 				A8D18F2926DDB3FD004B4E61 /* ContentView.swift in Sources */,
 				A8D18F3626DDB417004B4E61 /* ViewModel.swift in Sources */,
 				A8D18F3A26DDB456004B4E61 /* Row.swift in Sources */,
