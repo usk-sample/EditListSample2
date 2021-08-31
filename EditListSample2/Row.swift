@@ -10,7 +10,6 @@ import SwiftUI
 struct Row: View {
     
     @Binding var fruit: Fruit
-    var onToggle: () -> Void
     
     var body: some View {
         HStack {
@@ -25,6 +24,6 @@ struct Row: View {
 
 struct Row_Previews: PreviewProvider {
     static var previews: some View {
-        Row(fruit: .constant(.init(name: "Apple", visible: true)), onToggle: { })
+        Row(fruit: .constant(.init(name: "Apple", visible: true)))
     }
 }
