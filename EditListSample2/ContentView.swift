@@ -15,7 +15,9 @@ struct ContentView: View {
         VStack {
             List {
                 ForEach(self.viewModel.fruits.indices, id: \.self) { index in
-                    Row(fruit: $viewModel.fruits[index])
+                    Row(fruit: $viewModel.fruits[index], onToggle: {
+                        self.viewModel.fruits[index].visible.toggle()
+                    })
                 }.onDelete(perform: { indexSet in
                     self.viewModel.delete(indices: indexSet)
                 })
